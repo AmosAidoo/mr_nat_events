@@ -1,0 +1,22 @@
+body {
+	font-family: 'Rubik', sans-serif;
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 250px;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+}  
+
+
+/*Media Queries*/
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
