@@ -15,21 +15,21 @@
 				<a class="nav-link" href="about.php">About</a>
 			  </li>
 				<li id="services-nav" class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="services.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Services
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Waiting Staff</a>
+					<a class="dropdown-item" href="waiting_staff.php">Waiting Staff</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Ushers</a>
+					<a class="dropdown-item" href="ushers.php">Ushers</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Bartenders</a>
+					<a class="dropdown-item" href="bartenders.php">Bartenders</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Photograhy</a>
+					<a class="dropdown-item" href="photography.php">Photograhy</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Cooler Rentals</a>
+					<a class="dropdown-item" href="cooler_rentals.php">Cooler Rentals</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">DJs</a>
+					<a class="dropdown-item" href="djs.php">DJs</a>
 					</div>
 			</li>
 			<li id="beverage-nav" class="nav-item">

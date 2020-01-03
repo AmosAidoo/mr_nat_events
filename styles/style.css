@@ -2,14 +2,16 @@ body {
 	font-family: 'Rubik', sans-serif;
 	position: relative;
 	min-height: 100vh;
-	padding-bottom: 250px;
+	padding-bottom: 300px;
 }
+
+
 footer{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 100px;
-}  
+	height: 250px;
+}
 
 
 /*Media Queries*/
