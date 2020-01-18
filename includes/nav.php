@@ -14,11 +14,11 @@
 			  <li id="about-nav" class="nav-item">
 				<a class="nav-link" href="about.php">About</a>
 			  </li>
-				<li id="services-nav" class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<li id="services-nav"  class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" id="ser" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Services
 					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<div class="dropdown-menu"  aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="waiting_staff.php">Waiting Staff</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="ushers.php">Ushers</a>
@@ -30,7 +30,12 @@
 					<a class="dropdown-item" href="cooler_rentals.php">Cooler Rentals</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="djs.php">DJs</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="Cocktail.php">Cocktials</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="local_bar.php">Local_bar</a>
 					</div>
+					
 			</li>
 			<li id="beverage-nav" class="nav-item">
 				<a class="nav-link" href="beverage_shop.php">Beverage Shop</a>

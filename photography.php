@@ -3,17 +3,37 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Mr Nat Events</title>
+		<link rel="stylesheet" href="dist/aos.css" />
+		<script src="dist/aos.js"></script>
+				<!--Start of Tawk.to Script-->
+			<script type="text/javascript">
+			var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+			(function(){
+			var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+			s1.async=true;
+			s1.src='https://embed.tawk.to/5d580f94eb1a6b0be607ff63/default';
+			s1.charset='UTF-8';
+			s1.setAttribute('crossorigin','*');
+			s0.parentNode.insertBefore(s1,s0);
+			})();
+			</script>
+<!--End of Tawk.to Script-->
 		<?php include "includes/head_items.php"?>
 	</head>
 	
 	<body>
 		<!--Navigation and Large Image-->
-		<div style="width: 100%; height: 60vh; background-image: url('assets/images/close.jpg'); background-size: cover; position: relative">
+		<div style="width: 100%; height: 60vh; background-image: url('assets/images/cover4.jpg'); background-size: cover; position: relative">
 			<?php include "includes/nav.php" ?>
 			
-			<div class="" style="position: absolute; bottom:0; padding-left: 10%; height: 300px">
+			<div class="" style="position: absolute; bottom:0; padding-left: 10%; height: 300px" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
 				<h1 class="display-2 text-white">Photography</h1>
-				<p class="text-white">Lorem ipsum dolor color bacon</p>
+				<p class="text-white">
+					Mr Nat Events photography and videography gives you the best of young talented photographers & videographers for your event.
+					At Mr Nat Events we belive photography and videography is an art; one that takes a true artist to bring something to life and convey 
+					a message when a thousand words cannot. We'll capture your events be it Engagements,Weddings, Birthdays / Corporate events,etc with our
+					reliable and professional team
+				</p>
 				<a class="text-white" href="#" style="padding: 10px 20px; border: 1px solid white">Hello</a>
 			</div>
 		</div>
@@ -29,13 +49,13 @@
 				
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="assets/images/waiter.jpg" class="d-block w-100" alt="...">
+						<img src="assets/images/photography/pto1.jpg" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/images/waiter.jpg" class="d-block w-100" alt="...">
+						<img src="assets/images/photography/pto2.jpg" class="d-block w-100" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="assets/images/waiter.jpg" class="d-block w-100" alt="...">
+						<img src="assets/images/photography/pto3.jpg" class="d-block w-100" alt="...">
 					</div>
 				</div>
 				
@@ -50,7 +70,7 @@
 			</div>
 		</div>
 		
-		
+		<hr style="border-width:2px;border-color:black"/>
 		<?php include "includes/footer.php" ?>
 		<!--JQuery Popper and Bootstrap JavaScript-->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -60,6 +80,10 @@
 			$("#services-nav").addClass("active");
 			//$(".navbar").removeClass("bg-transparent");
 			//$(".navbar").addClass("bg-dark");
+		</script>
+		<!--Aos-->
+		<script>
+          AOS.init();
 		</script>
 	</body>
 </html>
